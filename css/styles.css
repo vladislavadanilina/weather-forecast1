@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #3399CC;
+    border-left: 20px solid #2B81AC;
+    border-right: 20px solid #2B81AC;
+    min-height: 100%;
+    color: #FFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body:before,
+body:after {
+    content: "";
+    position: fixed;
+    background: #2B81AC;
+    left: 0;
+    right: 0;
+    height: 20px;
+    border: none;
+}
+
+body:before {
+    top: 0;
+}
+
+body:after {
+    bottom: 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.main-box {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.box-header {
+    padding: 60px 0 20px;
+}
+
+.box-footer {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.city {
+    list-style-type: none;
+    font-size: 0;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+}
+
+.city:hover > li {
+    opacity: .6;
+}
+
+.city li {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.city > li:hover {
+    opacity: 1;
+}
+
+.city li:first-child {
+    background-color: #3399CC;
+}
+
+.city li:nth-child(2) {
+    background-color: #33CCCC;
+}
+
+.city li:nth-child(3) {
+    background-color: #996699;
+}
+
+.city li:nth-child(4) {
+    background-color: #C24747;
+}
+
+.city li:nth-child(5) {
+    background-color: #E2674A;
+}
+
+.city li:nth-child(6) {
+    background-color: #FFCC66;
+}
+
+.city li:nth-child(7) {
+    background-color: #99CC99;
+}
+
+.city li:nth-child(8) {
+    background-color: #669999;
+}
+
+.city li:nth-child(9) {
+    background-color: #CC6699;
+}
+
+.city li:nth-child(10) {
+    background-color: #339966;
+}
+
+.city li:last-child {
+    background-color: #666699;
+}
+
+.city li.smallest {
+    width: 25%;
+}
+
+.city li.middle {
+    width: 50%;
+}
+
+.city li.biggest {
+    width: 100%;
+}
+
+.city-weather {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+ i {
+    font-size: 35px;
+    vertical-align: bottom;
+}
