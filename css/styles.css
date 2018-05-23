@@ -11,32 +11,11 @@ html {
 
 body {
     background-color: #3399CC;
-    border-left: 20px solid #2B81AC;
-    border-right: 20px solid #2B81AC;
+    border: 20px solid #2B81AC;
     min-height: 100%;
     color: #FFF;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
-body:before,
-body:after {
-    content: "";
-    position: fixed;
-    background: #2B81AC;
-    left: 0;
-    right: 0;
-    height: 20px;
-    border: none;
-}
-
-body:before {
-    top: 0;
-}
-
-body:after {
-    bottom: 0;
-}
-
 h1 {
     font-weight: 500;
     font-size: 25px;
@@ -75,54 +54,54 @@ h1 {
     font-size: 20px;
     border: 2px solid #FFF;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 30px;
 }
 
 .city > li:hover {
     opacity: 1;
 }
 
-.city li:first-child {
+.city .blue {
     background-color: #3399CC;
 }
 
-.city li:nth-child(2) {
+.city .light_blue {
     background-color: #33CCCC;
 }
 
-.city li:nth-child(3) {
+.city .purple {
     background-color: #996699;
 }
 
-.city li:nth-child(4) {
+.city .red {
     background-color: #C24747;
 }
 
-.city li:nth-child(5) {
+.city .orange {
     background-color: #E2674A;
 }
 
-.city li:nth-child(6) {
+.city .yellow {
     background-color: #FFCC66;
 }
 
-.city li:nth-child(7) {
+.city .salade {
     background-color: #99CC99;
 }
 
-.city li:nth-child(8) {
+.city .grey {
     background-color: #669999;
 }
 
-.city li:nth-child(9) {
+.city .pink {
     background-color: #CC6699;
 }
 
-.city li:nth-child(10) {
+.city .green {
     background-color: #339966;
 }
 
-.city li:last-child {
+.city .dark_purple {
     background-color: #666699;
 }
 
